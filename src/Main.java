@@ -1,5 +1,7 @@
+import login.LoginApp;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
-    }
+        LoginApp.loginProcess(args);
+            }
 }
