@@ -5,3 +5,4 @@ public class AdminApp {
         System.out.println("Kamu Admin Gacor");
     }
 }
+

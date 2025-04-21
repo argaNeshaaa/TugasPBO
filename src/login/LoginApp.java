@@ -1,7 +1,8 @@
 package login;
-import java.util.Scanner;
 import admin.AdminApp;
 import customer.CustomerApp;
+import java.util.Scanner;
+import user.User;
 
 public class LoginApp {
     public static void loginProcess(String[] args) {
@@ -17,9 +18,9 @@ public class LoginApp {
         boolean isAdmin = false;
 
         for (User u : UserData.users) {
-            if (u.username.equals(inputUsername) && u.password.equals(inputPassword)) {
+            if (u.getUsername().equals(inputUsername) && u.getPassword().equals(inputPassword)) {
                 loginBerhasil = true;
-                isAdmin = u.isAdmin;
+                isAdmin = u.isAdmin();
                 break;
             }
         }
