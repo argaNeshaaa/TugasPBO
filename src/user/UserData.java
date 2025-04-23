@@ -1,6 +1,5 @@
-package login;
+package user;
 
-import user.User;
 
 public class UserData {
     public static User[] users = {
