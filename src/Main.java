@@ -44,11 +44,11 @@ public class Main {
 
     public static void sahamMenu() {
         System.out.println("=== MENU SAHAM ===");
-        // belum isi logika saham (bagian saham main juga)
+        // belum isi logika saham
     }
 
     public static void sbnMenu() {
         System.out.println("=== MENU SBN ===");
-        //belum isi logika sbn (bagian sbn main juga)
+        //belum isi logika sbn
     }
 }
