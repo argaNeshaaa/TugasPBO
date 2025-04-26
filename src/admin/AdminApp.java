@@ -1,10 +1,13 @@
 package admin;
 import java.util.Scanner;
 import screen.Screen;
+import user.User;
+import user.UserData;
+import saham.ListSaham;
 
 public class AdminApp {
-    public static void main(String[] args) {
-        Screen.clearScreen(args);
+    public static void main() {
+        Screen.clearScreen();
         header();
         chooseInvesmentAdmin();
     }
@@ -25,7 +28,16 @@ public class AdminApp {
         int invesment = scanner.nextInt();
 
         if (invesment == 1) {
-            System.out.println("Saham Admin");
+            ListSaham.AllSaham();
+            System.out.println("11 Tambah Saham");
+            System.out.println("12 Kembali");
+            System.out.print("Pilih Saham : ");
+            int chooseSaham = scanner.nextInt();
+            int indexNumber = chooseSaham - 1 ;
+            if (chooseSaham >= 0 && chooseSaham <= ListSaham.getList().size()) {
+                System.out.println(ListSaham.getList().get(indexNumber));
+            }
+
         }
         else if (invesment == 2) {
             System.out.println("SBN Admin");

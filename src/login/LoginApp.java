@@ -6,7 +6,7 @@ import user.User;
 import user.UserData;
 
 public class LoginApp {
-    public static void loginProcess(String[] args) {
+    public static void loginProcess() {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Masukkan username: ");
@@ -28,9 +28,9 @@ public class LoginApp {
 
         if (loginBerhasil) {
             if (isAdmin) {
-                AdminApp.main(args);
+                AdminApp.main();
             } else {
-                CustomerApp.main(args);
+                CustomerApp.main();
             }
         } else {
             System.out.println("Login gagal!");

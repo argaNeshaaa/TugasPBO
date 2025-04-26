@@ -5,8 +5,8 @@ import java.util.Scanner;
 import screen.Screen;
 
 public class CustomerApp {
-public static void main(String[] args) {
-        Screen.clearScreen(args);
+public static void main() {
+        Screen.clearScreen();
         header();
         chooseInvesmentCustomer();
     }
