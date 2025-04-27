@@ -1,6 +1,6 @@
 package admin;
 import java.util.Scanner;
-import saham.ListSaham;
+import saham.*;
 import screen.Screen;
 
 public class AdminApp {
@@ -26,6 +26,8 @@ public class AdminApp {
         int invesment = scanner.nextInt();
 
         if (invesment == 1) {
+            boolean back = true;
+            while (back) {
             ListSaham.AllSaham();
             System.out.println("11 Tambah Saham");
             System.out.println("12 Kembali");
@@ -33,9 +35,28 @@ public class AdminApp {
             int chooseSaham = scanner.nextInt();
             int indexNumber = chooseSaham - 1 ;
             if (chooseSaham >= 0 && chooseSaham <= ListSaham.getList().size()) {
-                System.out.println(ListSaham.getList().get(indexNumber));
+                Saham saham = ListSaham.getList().get(indexNumber);
+                Screen.clearScreen();
+                System.out.printf(" %-10s %-15s %-10s%n", "Nama", "Harga", "Lot Tersedia");
+                System.out.printf(" %-10s %-15.2f %-10d%n", 
+                saham.getNama(), 
+                saham.getHarga(), 
+                saham.getLotTersedia()
+                );
+                System.out.printf(" %-25s%n %-25s%n","1.Ubah Harga","2.Kembali");
+                System.out.print("Pilih Action : ");
+                int ChangePrice = scanner.nextInt();
+                if (ChangePrice == 1) {
+                    System.out.print("Ubah Harga Menjadi : ");
+                    double NewPrice = scanner.nextDouble();
+                    saham.setHarga(NewPrice);
+                    System.out.println("Harga Saham Diubah Menjadi " + saham.getHarga());
+                }
+            } else if (chooseSaham == 11) {
+                
             }
 
+        }
         }
         else if (invesment == 2) {
             System.out.println("SBN Admin");

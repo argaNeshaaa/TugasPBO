@@ -1,4 +1,4 @@
-package sbn;
+package SBN;
 
 import java.util.ArrayList;
 
