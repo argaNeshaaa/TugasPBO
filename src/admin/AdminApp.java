@@ -1,9 +1,7 @@
 package admin;
 import java.util.Scanner;
-import screen.Screen;
-import user.User;
-import user.UserData;
 import saham.ListSaham;
+import screen.Screen;
 
 public class AdminApp {
     public static void main() {

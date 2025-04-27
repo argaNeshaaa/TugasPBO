@@ -1,6 +1,6 @@
 package saham;
-import screen.Screen;
 import java.util.ArrayList;
+import screen.Screen;
 
 class Saham {
     String nama;
