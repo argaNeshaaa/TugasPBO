@@ -39,4 +39,6 @@ public class Saham {
     public String toString() {
         return nama + "- Harga: Rp" + harga + "- Lembar Tersedia: " + lotTersedia;
     }
+
+    
 }

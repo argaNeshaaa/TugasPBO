@@ -1,5 +1,5 @@
 package login;
-import java.util.Scanner;
+import input.InputUtility;
 import admin.AdminApp;
 import customer.CustomerApp;
 import user.User;
@@ -7,13 +7,12 @@ import user.UserData;
 
 public class LoginApp {
     public static void loginProcess() {
-        Scanner scanner = new Scanner(System.in);
 
         System.out.print("Masukkan username: ");
-        String inputUsername = scanner.nextLine();
+        String inputUsername = InputUtility.scanner.nextLine();
 
         System.out.print("Masukkan password: ");
-        String inputPassword = scanner.nextLine();
+        String inputPassword = InputUtility.scanner.nextLine();
 
         boolean loginBerhasil = false;
         boolean isAdmin = false;
@@ -36,6 +35,5 @@ public class LoginApp {
             System.out.println("Login gagal!");
         }
 
-        scanner.close();
     }
 }
