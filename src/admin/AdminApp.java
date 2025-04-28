@@ -1,6 +1,5 @@
 package admin;
 import input.InputUtility;
-import login.LoginApp;
 import screen.Screen;
 
 public class AdminApp {
@@ -32,7 +31,8 @@ public class AdminApp {
         }
         else if (invesment == 3) {
             Screen.clearScreen();
-            LoginApp.loginProcess();
+            System.out.println("Logout Berhasil");
+            backChooseInvestment = false;
         }
     }
 }

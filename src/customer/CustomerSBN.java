@@ -1,11 +1,12 @@
-package admin;
+package customer;
+
 import SBN.AddSBN;
 import SBN.ListSBN;
 import SBN.SBN;
 import input.InputUtility;
 import screen.Screen;
 
-public class AdminSBN {
+public class CustomerSBN {
     public static boolean backChooseInvestment = false;
     public static void main() {
         boolean backListSBN = true;
@@ -13,8 +14,7 @@ public class AdminSBN {
         while (backListSBN) {
         Screen.clearScreen();
         ListSBN.AllSBN();
-        System.out.println(TotalIndex + 1 +" Tambah SBN");
-        System.out.println(TotalIndex + 2 +" Kembali");
+        System.out.println(TotalIndex + 1 +" Kembali");
             System.out.print("Pilih SBN : ");
             int chooseSBN = InputUtility.scanner.nextInt();
             int indexNumber = chooseSBN - 1 ;

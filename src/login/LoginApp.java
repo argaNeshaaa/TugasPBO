@@ -6,16 +6,18 @@ import user.User;
 import user.UserData;
 
 public class LoginApp {
+    private static String inputUsername = null;
     public static void loginProcess() {
-
-        System.out.print("Masukkan username: ");
-        String inputUsername = InputUtility.scanner.nextLine();
-
-        System.out.print("Masukkan password: ");
-        String inputPassword = InputUtility.scanner.nextLine();
-
+        String inputPassword = null;
         boolean loginBerhasil = false;
         boolean isAdmin = false;
+
+        System.out.print("Masukkan username: ");
+        inputUsername = InputUtility.scanner.nextLine();
+
+        System.out.print("Masukkan password: ");
+        inputPassword = InputUtility.scanner.nextLine();
+
 
         for (User u : UserData.users) {
             if (u.username.equals(inputUsername) && u.password.equals(inputPassword)) {
@@ -35,5 +37,8 @@ public class LoginApp {
             System.out.println("Login gagal!");
         }
 
+    }
+    public static String getInputUsername() {
+        return inputUsername;
     }
 }

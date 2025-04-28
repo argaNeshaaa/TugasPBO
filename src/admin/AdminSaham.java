@@ -11,7 +11,6 @@ public class AdminSaham {
     public static void main() {
         boolean backListSaham = true;
         int TotalIndex = ListSaham.getList().size();
-        backListSaham = true;
             while (backListSaham) {
             Screen.clearScreen();
             ListSaham.AllSaham();

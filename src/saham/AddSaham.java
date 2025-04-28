@@ -19,4 +19,6 @@ public class AddSaham {
         ListSaham.tambahSaham(sahamBaru);
         System.out.println("Saham berhasil ditambahkan!");
     }
+
+   
 }
