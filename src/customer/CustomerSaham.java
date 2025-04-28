@@ -41,15 +41,14 @@ public class CustomerSaham {
                 
                 Screen.clearScreen();
                 
-                // Berhasil Membeli Saham
-                if (LotBuy <= saham.getLotTersedia()) {
-                    System.out.println("Berhasil Membeli Saham Sebanyak " + LotBuy + " Lot");
-                    int NewLot = saham.getLotTersedia() - LotBuy;
-                    saham.setLotTersedia(NewLot);
+                    // Berhasil Membeli Saham
                     boolean found = false;
 
                     for (SahamUser1 sahamUser : semuaSaham) {
-                        if (sahamUser.getNama().equals(saham.getNama())) {
+                        if (LotBuy <= saham.getLotTersedia() && sahamUser.getNama().equals(saham.getNama())) {
+                            int NewLot = saham.getLotTersedia() - LotBuy;
+                            saham.setLotTersedia(NewLot);
+                            System.out.println("Berhasil Membeli Saham Sebanyak " + LotBuy + " Lot");
                             sahamUser.setLotDibeli(sahamUser.getLotDibeli() + LotBuy);
                             System.out.println("Total Lot dimiliki: " + sahamUser.getLotDibeli() + " Lot");
                             found = true;
@@ -60,13 +59,11 @@ public class CustomerSaham {
                     if (!found) {
                         
                         String idUser =LoginApp.getInputUsername();  
-                        SahamUser1 sahamBaru = new SahamUser1(saham.getNama(), saham.getHarga(), LotBuy, idUser);
+                        SahamUser1 sahamBaru = new SahamUser1(saham.getNama(), saham.getHarga(), saham.getHarga(), LotBuy, idUser);
                         ListSahamCustomer.tambahSaham(sahamBaru);
                         ListSahamCustomer.AllSaham();
                     }
-                } else {
-                    System.out.println("Gagal Membeli Saham");
-                }
+                 
 
                 System.out.println("1.Kembali");
                 System.out.print("Action :");
@@ -126,7 +123,10 @@ public class CustomerSaham {
                     }
                 } 
             
-        } 
+        } else if(chooseSaham == TotalIndex + 1) {
+            backListSaham = false;
+            backChooseInvestment = true;
+        }
 
         // Ketika admin ingin kembali memili Investment
         else {

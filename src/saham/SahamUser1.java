@@ -3,12 +3,14 @@ package saham;
 public class SahamUser1 {
     private String nama;
     private double harga;
+    private double hargaBeli;
     private int lotDibeli;
     private String idUser;
 
-    public SahamUser1(String nama, double harga, int lotDibeli, String idUser) {
+    public SahamUser1(String nama, double harga, double hargaBeli, int lotDibeli, String idUser) {
         this.nama = nama;
         this.harga = harga;
+        this.hargaBeli = hargaBeli;
         this.lotDibeli = lotDibeli;
         this.idUser = idUser;
     }
@@ -19,6 +21,9 @@ public class SahamUser1 {
 
     public double getHarga() {
         return harga;
+    }
+    public double getHargaBeli() {
+        return hargaBeli;
     }
 
     public int getLotDibeli() {

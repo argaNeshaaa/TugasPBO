@@ -31,6 +31,9 @@ public static void main() {
             CustomerSBN.main();
         }
         else if (invesment == 3) {
+            Portofolio.main();
+        }
+        else if (invesment == 4) {
             Screen.clearScreen();
             System.out.println("Logout Berhasil");
             backChooseInvestment = false;

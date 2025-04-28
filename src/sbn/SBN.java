@@ -46,6 +46,9 @@ package SBN;
         public void setJangkaWaktu(int jangkaWaktu) {
             this.jangkaWaktu = jangkaWaktu;
         }
+        public void setKuotaNasiona(long kuotaNasional) {
+            this.kuotaNasional = kuotaNasional;
+        }
         
         @Override
         public String toString() {
