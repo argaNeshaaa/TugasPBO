@@ -11,7 +11,9 @@ Program ini dibuat untuk mendukung dua kategori pengguna dengan perbedaan akses 
 2. Customer, dapat mengakses fitur Beli Saham, Jual Saham, Beli SBN, Simulasi SBN, Portofolio, Logout.
 
 ## Identitas Kelompok
-_(akan diisi)_
+
+1. Anak Agung Istri Mas Gayatri Dewi (2405551016)
+2. Arga Nesha Guntara Waruwu (2405551115)
 
 ## UML Program Investasi Saham
 _(akan diisi)_
