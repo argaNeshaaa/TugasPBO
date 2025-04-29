@@ -1,5 +1,4 @@
 package sbn;
-
 import input.InputUtility;
 import screen.Screen;
 
