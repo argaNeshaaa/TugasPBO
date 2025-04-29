@@ -17,7 +17,7 @@ Program ini dibuat untuk mendukung dua kategori pengguna dengan perbedaan akses 
 2. Arga Nesha Guntara Waruwu (2405551115)
 
 ## UML Program Investasi Saham
-Berikut merupakan UML Program Investasi Sederhana:
+Berikut merupakan UML Program Investasi Sederhana Saham dan SBN:
 
 ![Diagram UML](https://github.com/argaNeshaaa/TugasPBO/blob/main/uml-https://raw.githubusercontent.com/argaNeshaaa/TugasPBO/51da0ad65ce87e78b77f45ecdd952ae1fb0c9abf/UML%20Program%20Investasi.png?raw=true)
 
