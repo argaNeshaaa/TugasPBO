@@ -2,12 +2,12 @@ package customer;
 
 import java.util.ArrayList;
 
-import SBN.ListSBN;
-import SBN.ListSBNCustomer;
-import SBN.SBN;
-import SBN.SBNUser1;
 import input.InputUtility;
 import login.LoginApp;
+import sbn.ListSBN;
+import sbn.ListSBNCustomer;
+import sbn.SBN;
+import sbn.SBNUser1;
 import screen.Screen;
 
 public class CustomerSBN {

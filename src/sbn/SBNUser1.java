@@ -1,4 +1,4 @@
-package SBN;
+package sbn;
 
 public class SBNUser1 {
     private String nama;

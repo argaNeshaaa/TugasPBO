@@ -1,9 +1,9 @@
 package customer;
-import SBN.ListSBNCustomer;
-import SBN.SBNUser1;
 import input.InputUtility;
 import saham.ListSahamCustomer;
 import saham.SahamUser1;
+import sbn.ListSBNCustomer;
+import sbn.SBNUser1;
 import screen.Screen;
 
 public class Portofolio {

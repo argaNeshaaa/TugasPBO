@@ -1,8 +1,8 @@
 package admin;
-import SBN.AddSBN;
-import SBN.ListSBN;
-import SBN.SBN;
 import input.InputUtility;
+import sbn.AddSBN;
+import sbn.ListSBN;
+import sbn.SBN;
 import screen.Screen;
 
 public class AdminSBN {
