@@ -19,7 +19,7 @@ Program ini dibuat untuk mendukung dua kategori pengguna dengan perbedaan akses 
 ## UML Program Investasi Saham
 Berikut merupakan UML Program Investasi Sederhana Saham SBN:
 
-![Diagram-UML](https://github.com/argaNeshaaa/TugasPBO/blob/main/UML%20Program%20Investasi.png?raw=true)
+![Diagram-UML](https://github.com/argaNeshaaa/TugasPBO/blob/main/UML%20Program%20Investasi.png?raw=true0)
 
 ## Dokumentasi Program
 _(akan diisi)_
