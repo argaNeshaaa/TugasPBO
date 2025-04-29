@@ -15,10 +15,11 @@ Program ini dibuat untuk mendukung dua kategori pengguna dengan perbedaan akses 
 
 1. Anak Agung Istri Mas Gayatri Dewi (2405551016)
 2. Arga Nesha Guntara Waruwu (2405551115)
-3. si imut
 
 ## UML Program Investasi Saham
-_(akan diisi)_
+Berikut merupakan UML Program Investasi Sederhana:
+
+![Diagram UML](https://github.com/argaNeshaaa/TugasPBO/blob/main/uml-https://raw.githubusercontent.com/argaNeshaaa/TugasPBO/51da0ad65ce87e78b77f45ecdd952ae1fb0c9abf/UML%20Program%20Investasi.png?raw=true)
 
 ## Dokumentasi Program
 _(akan diisi)_
