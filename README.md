@@ -30,42 +30,96 @@ username: user1, password: abcde
 ## Login Melalui Sisi Admin
 Login menggunakan username: admin, password: 12345
 
-![Screenshot 2025-04-30 013459](https://github.com/user-attachments/assets/5c1c6c63-dc82-44b3-ba1d-9f46fb94d5d0)
 
 ## Hak Akses Admin
 Ketika berhasil login, maka program akan menampilkan pilihan untuk admin berupa saham, sbn, dan logout.
 
-![Screenshot 2025-04-30 013625](https://github.com/user-attachments/assets/1569ee81-98b2-451e-b655-db5c957823dc)
 
 ## List Saham
 Ketika memilih menu saham, maka tampilan program akan membawa admin pada halaman list saham.
 
-![Screenshot 2025-04-30 013638](https://github.com/user-attachments/assets/e6452bbb-2f2f-4691-89e1-6d7050b53b29)
+
 
 ## Tampilan Saham BBCA
 Ketika membuka salah satu jenis saham, maka akan ada opsi untuk mengubah harga dan kembali untuk ke menu sebelumnya.
 
-![Screenshot 2025-04-30 013651](https://github.com/user-attachments/assets/c1c0e494-3278-4e17-b214-e93763af1fd1)
 
 ## Mengubah Harga Saham
 Ketika memilih menu ubah harga saham, maka admin mendapatkan akses untuk mengubah harga saham yang tertera dalam program investasi sederhana ini.
 
-![Screenshot 2025-04-30 013712](https://github.com/user-attachments/assets/7107473f-0826-4e90-a8f6-f4eed81f1c8e)
-
 ## Berhasil Mengubah Harga Saham
 Ketika sudah menambahkan harga saham yang baru, maka program akan menampilkan pesan seperti pada gambar.
 
-![Screenshot 2025-04-30 013720](https://github.com/user-attachments/assets/1fd9186e-bb92-4af9-bb3b-ed8521b5f2fc)
 
 ## Menambah Saham
 Ketika admin memilih opsi tambah saham, maka program akan mengarahkan user untuk mengisi semua data saham yang akan ditambahkan.
 
-![Screenshot 2025-04-30 013905](https://github.com/user-attachments/assets/945dc634-91eb-4ab9-99fe-35e2805b78ea)
 
 ## Tampilan Setelah Menambahkan Saham
 Ketika sudah mengisi semua data yang diminta, maka saham yang ditambahkan akan tertampil pada menu list saham.
 
-![Screenshot 2025-04-30 013917](https://github.com/user-attachments/assets/17f71862-0691-4d97-8d3e-4cdd2fb4243b)
+## List SBN
+Ketika admin memilih SBN, maka program akan menampilkan List SBN.
 
+## Tampilan SBN ORI020
+Ketika membuka salah satu jenis SBN, maka akan ada opsi kembali untuk ke menu sebelumnya.
 
+## Tambah SBN
+Ketika admin memilih menut tambah SBN, maka admin akan diminta untuk mengisi data SBN yang akan ditambahkan oleh program ini.
 
+## SBN Berhasil Ditambahkan
+Ketika SBN berhasil ditambahkan, maka data SBN yang sebelumnya ditambahkan akan tertampil pada List SBN.
+
+## Login Melalui Sisi Customer
+Login menggunakan username: user1, password: abcde
+
+## Hak Akses Customer
+Ketika berhasil login, customer akan dapat mengakses Saham, SBN, Portofolio, serta Logout.
+
+## List Saham
+Ketika memilih menu saham, maka akan menampilkan list saham kembali dan user akan diminta untuk memilih jenis saham yang akan dipilih.
+
+## Jual Beli Saham
+Ketika sudah memilih salah satu jenis saham, customer akan diberikan pilihan menu yaitu membeli saham, menjual saham, serta fitur kembali.
+
+## Beli Saham
+Ketika memilih menu beli saham, customer akan diminta untuk mengisi jumlah lot yang hendak dibeli.
+
+## Berhasil Beli Saham
+Ketika customer berhasil membeli saham, program akan menampilkan pesan seperti pada gambar dan jumlah lot yang dimiliki customer akan muncul disana.
+
+## Jual Saham
+Ketika memilih menu jual saham, customer akan diminta untuk mengisi jumlah lot yang hendak dijual.
+
+## Berhasil Jual Saham
+Ketika customer berhasil menjual saham, program akan menampilkan pesan seperti pada gambar dan jumlah lot yang dimiliki customer akan muncul disana.
+
+## List SBN
+Ketika memilih menu SBN, maka akan menampilkan list SBN kembali dan user akan diminta untuk memilih jenis SBN yang akan dipilih.
+
+## Pembelian SBN
+Ketika sudah memilih salah satu jenis SBN, customer akan diberikan pilihan menu yaitu membeli SBN, serta fitur kembali.
+
+## Beli SBN
+Ketika memilih menu beli SBN, customer akan diminta untuk mengisi nominal yang hendak dibeli.
+
+## Berhasil Beli SBN
+Ketika customer berhasil membeli SBN, program akan menampilkan pesan seperti pada gambar dan total SBN yang dimiliki customer akan muncul disana.
+
+## Portofolio
+Ketika customer memilih portofolio, maka akan ada menu pilihan saham, SBN, serta kembali.
+
+## Portofolio Saham
+Ketika memilih menu saham, maka akan menampilkan saham yang dimiliki oleh customer.
+
+## Portofolio BBCA
+Ketika memilih salah satu jenis sahamnya, mka akan ditampilkan portofolio namun hanya jenis saham yang dipilih.
+
+## Protofolio SBN
+Ketika memilih menu SBN, maka akan menampilkan SBN yang dimiliki oleh customer.
+
+## Portofolio SR013
+Ketika memilih salah satu jenis SBN, mka akan ditampilkan portofolio namun hanya jenis SBN yang dipilih.
+
+## Logout
+Ketika memilih Logout, maka program akan menampilkan pesan Logout Berhasil dan program akan berhenti.
