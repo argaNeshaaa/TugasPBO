@@ -1,6 +1,6 @@
-# Program Investasi Saham
+# Program Investasi Sederhana
 
-Selamat datang di Tugas 1 Pemrograman Berbasis Objek. Ini adalah Tugas Pembuatan Program Investasi Saham Sederhana Berbasis Command Line. 
+Selamat datang di Tugas 1 Pemrograman Berbasis Objek. Ini adalah Tugas Pembuatan Program Investasi Sederhana Berbasis Command Line. 
 
 Program ini dibuat untuk mendukung dua kategori pengguna dengan perbedaan akses yang didapatkan tiap penggunanya.
 
