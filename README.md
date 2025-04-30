@@ -21,14 +21,11 @@ Berikut merupakan UML Program Investasi Sederhana Saham SBN:
 ![Diagram-UML](https://github.com/argaNeshaaa/TugasPBO/blob/main/UML%20Program%20Investasi.png?raw=true0)
 
 # Dokumentasi Program
-Program ini dijalankan melalui file Main.java
-Berikut merupakan user datanya.
+Program ini dijalankan melalui file Main.java. Berikut merupakan user datanya.
 
-username: admin
-password: 12345
+username: admin, password: 12345
 
-username: user1
-password: abcde
+username: user1, password: abcde
 
 
 
